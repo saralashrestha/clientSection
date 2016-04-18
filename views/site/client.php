@@ -8,7 +8,7 @@ $this->title = 'Client';
 
 <div class="site-client">
     <h1><?= Html::encode($this->title) . " List" ?></h1>
-    <a class="btn btn-primary" href="/basic/web/index.php?r=site%2Findex">Add Client</a>
+    <a class="btn btn-primary" href="/clientSection/web/index.php?r=site%2Findex">Add Client</a>
     <table id="myTable" class="table table-striped" >
         <thead>
             <tr>

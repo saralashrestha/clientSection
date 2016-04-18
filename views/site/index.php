@@ -10,7 +10,7 @@ $this->title = 'ADD CLIENT';
 ?>
 <div class="site-client">
     <h1><?= Html::encode($this->title) ?></h1>
-    <a class="btn btn-primary" href="/basic/web/index.php?r=site%2Fclient">Client List</a>
+    <a class="btn btn-primary" href="/clientSection/web/index.php?r=site%2Fclient">Client List</a>
 
     <?php if (Yii::$app->session->hasFlash('formSubmitted')): ?>
 
