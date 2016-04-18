@@ -24,9 +24,12 @@ The minimum requirement by this project that your Web server supports PHP 5.4.0.
 
 INSTALLATION
 ------------
-### Install from an Archive File
-
-Extract the archive file to a directory that is directly under the Web root.
+### Install from github repository
+### Installation steps
+1. git clone git@github.com:saralashrestha/clientSection.git to a directory that is directly under the Web root.
+2. give write permission chmod 777 runtime/ -R
+3. give write permission chmod 777 web/assets -R
+4. give write permission chmod 777 upload -R 
 
 You can then access the application through the following URL:
 
